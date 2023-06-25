@@ -19,7 +19,7 @@ const jogadorSchema = mongoose.Schema(
             required: [true, "Digite a posição do jogador"]
         },
         camisa: {
-            type: String,
+            type: Number,
             required: [true, "Digite o numero da camisa do jogador"]
         }
     },
